@@ -1,0 +1,9 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 140px;
+    padding: 60px 50px;
+    color: aliceblue;
+}

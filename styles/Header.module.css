@@ -1,0 +1,85 @@
+.header {
+  background-image: url("/background.png");
+  height: 100vh;
+  
+}
+
+.divhaut {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.title {
+  color: aliceblue;
+  text-align: center;
+  font-size: 300%;
+}
+.icon {
+  color: aliceblue;
+  display: flex;
+  width: 100px;
+  text-align: center;
+  justify-content: space-around;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.text {
+  color: aliceblue;
+  display: flex;
+  padding-left: 30px;
+  flex-direction: column;
+}
+.text2 {
+  font-size: 80px;
+}
+.text1 {
+  font-size: 40px;
+}
+.divbas {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnconteiner {
+  color: aliceblue;
+  display: flex;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  flex-direction: row;
+  width: 60vh;
+  height: 10vh;
+  margin-top: 30px;
+}
+.btn1 {
+  margin: auto;
+  width: 40%;
+  height: 80%;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  border: solid rgb(0, 0, 0);
+}
+.btn2 {
+  margin: auto;
+  width: 40%;
+  height: 80%;
+  border-radius: 30px;
+  background-color: black;
+  border: solid aliceblue;
+  color: aliceblue;
+}
+.btn1:hover{
+    background-color: black;
+    border: solid aliceblue;
+    color: aliceblue;
+    transition:1s;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0);
+    color: black;
+    transition:1s;
+    cursor: pointer;
+}
